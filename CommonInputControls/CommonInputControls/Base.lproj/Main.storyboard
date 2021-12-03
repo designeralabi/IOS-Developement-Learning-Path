@@ -20,12 +20,13 @@
                                 <rect key="frame" x="158" y="433" width="98" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Click Here">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nmj-l9-ytt"/>
+                                    <outletCollection property="gestureRecognizers" destination="J8b-Pc-IDr" appends="YES" id="6eN-e7-lng"/>
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U2I-Pj-hQz">
@@ -55,16 +56,35 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLU-SP-gYR">
                                 <rect key="frame" x="185" y="672" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="J8b-Pc-IDr" appends="YES" id="grY-us-nUC"/>
+                                    <outletCollection property="gestureRecognizers" destination="J8b-Pc-IDr" appends="YES" id="Xg5-Xo-Kr8"/>
+                                </connections>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="J8b-Pc-IDr" appends="YES" id="jgh-XT-ty5"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="buttonNew" destination="KDP-Nq-Ell" id="FYN-HV-Goi"/>
+                        <outlet property="toggleSlider" destination="kmq-HU-tF7" id="qtQ-vR-L8W"/>
+                        <outlet property="toggleSwitch" destination="U2I-Pj-hQz" id="5Pp-Wu-ATg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="J8b-Pc-IDr">
+                    <connections>
+                        <action selector="respondToTapGesture:" destination="BYZ-38-t0r" id="g6c-Bx-KWj"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="140.57971014492756" y="71.651785714285708"/>
         </scene>
