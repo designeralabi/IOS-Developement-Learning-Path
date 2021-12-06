@@ -28,14 +28,41 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Web Development" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxJ-6H-Ani">
+                                <rect key="frame" x="137" y="126" width="140" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hacking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzX-Z4-dqu">
+                                <rect key="frame" x="175.5" y="167" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="singing&amp;playing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0KG-Ya-AGP">
+                                <rect key="frame" x="146.5" y="208" width="121" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="rxJ-6H-Ani" firstAttribute="top" secondItem="EMc-aZ-NUM" secondAttribute="bottom" constant="20" id="57z-Vy-CFX"/>
+                            <constraint firstItem="0KG-Ya-AGP" firstAttribute="centerX" secondItem="5VU-e4-98Y" secondAttribute="centerX" id="Ae2-Bg-nSv"/>
+                            <constraint firstItem="0KG-Ya-AGP" firstAttribute="top" secondItem="TzX-Z4-dqu" secondAttribute="bottom" constant="20" id="FOl-IN-AZG"/>
                             <constraint firstItem="EMc-aZ-NUM" firstAttribute="centerX" secondItem="5VU-e4-98Y" secondAttribute="centerX" id="Iyt-nc-yrL"/>
+                            <constraint firstItem="TzX-Z4-dqu" firstAttribute="top" secondItem="rxJ-6H-Ani" secondAttribute="bottom" constant="20" id="QJT-6g-8Ay"/>
+                            <constraint firstItem="EMc-aZ-NUM" firstAttribute="centerX" secondItem="5VU-e4-98Y" secondAttribute="centerX" id="Tua-lj-uDU"/>
                             <constraint firstItem="5VU-e4-98Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fkd-eC-w1z"/>
+                            <constraint firstItem="EMc-aZ-NUM" firstAttribute="centerX" secondItem="5VU-e4-98Y" secondAttribute="centerX" id="fln-nh-2B6"/>
+                            <constraint firstItem="rxJ-6H-Ani" firstAttribute="centerX" secondItem="5VU-e4-98Y" secondAttribute="centerX" id="g1G-wZ-kAm"/>
+                            <constraint firstItem="rxJ-6H-Ani" firstAttribute="centerX" secondItem="5VU-e4-98Y" secondAttribute="centerX" id="ns7-Mm-sEo"/>
                             <constraint firstItem="EMc-aZ-NUM" firstAttribute="top" secondItem="5VU-e4-98Y" secondAttribute="bottom" constant="20" id="o7Z-7X-RMR"/>
                             <constraint firstItem="5VU-e4-98Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rUM-86-Nfx"/>
+                            <constraint firstItem="TzX-Z4-dqu" firstAttribute="centerX" secondItem="5VU-e4-98Y" secondAttribute="centerX" id="tq8-e6-NRH"/>
                         </constraints>
                     </view>
                 </viewController>
