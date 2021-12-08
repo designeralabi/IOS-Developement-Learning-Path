@@ -62,6 +62,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <variation key="heightClass=compact">
+                                    <mask key="subviews">
+                                        <exclude reference="5VU-e4-98Y"/>
+                                    </mask>
+                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" spacing="20"/>
                             </stackView>
                         </subviews>
