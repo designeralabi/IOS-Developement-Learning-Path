@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180E528A2766DB5500329282 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E52892766DB5500329282 /* Game.swift */; };
 		18D0766B27665BA800DA36A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0766A27665BA800DA36A4 /* AppDelegate.swift */; };
 		18D0766D27665BA800DA36A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0766C27665BA800DA36A4 /* SceneDelegate.swift */; };
 		18D0766F27665BA800DA36A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0766E27665BA800DA36A4 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180E52892766DB5500329282 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		18D0766727665BA800DA36A4 /* applePie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = applePie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D0766A27665BA800DA36A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D0766C27665BA800DA36A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		18D0765E27665BA800DA36A4 = {
 			isa = PBXGroup;
 			children = (
+				180E52892766DB5500329282 /* Game.swift */,
 				18D0766927665BA800DA36A4 /* applePie */,
 				18D0766827665BA800DA36A4 /* Products */,
 			);
@@ -140,6 +143,7 @@
 				18D0766F27665BA800DA36A4 /* ViewController.swift in Sources */,
 				18D0766B27665BA800DA36A4 /* AppDelegate.swift in Sources */,
 				18D0766D27665BA800DA36A4 /* SceneDelegate.swift in Sources */,
+				180E528A2766DB5500329282 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
