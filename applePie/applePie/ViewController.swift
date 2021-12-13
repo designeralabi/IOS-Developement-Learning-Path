@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func letterButtonPressed(_ sender: UIButton) {
-        
+        sender.isEnabled = false
     }
     
 }
