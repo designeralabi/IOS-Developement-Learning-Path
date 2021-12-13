@@ -9,4 +9,10 @@
 - Leading:- this means from left edge of the screen
 - trailing:- this means from right edge of the screen
 
-### IOS BOOKS
+### IOS BOOKS I USED
+Apple Education. ![“Develop in Swift Fundamentals”. Apple Inc. - Education, 2021. Apple Books.] (https://books.apple.com/ng/book/develop-in-swift-fundamentals/id1556365994)
+## Practice Project
+// below are project i practice with
+### applePie AppProject
+- “During gameplay, the text of the labels change whenever a letter is guessed correctly or whenever a new round begins. The image need to change whenever an incorrect letter is guessed, and the letter buttons need to be disabled whenever they're pressed and re-enabled before each round.
+
